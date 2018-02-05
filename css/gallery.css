@@ -1,0 +1,12 @@
+h1{
+  border-bottom: 3px solid grey;
+  width: 30%;;
+  margin: 1.6%;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+img{
+  width: 30%; /*he used 30 to make sure 3 fit on one line*/
+  float: left; /*float was used to get rid of the initial spacing between them*/
+  margin: 1.6%;
+}

@@ -1,0 +1,17 @@
+
+/* The em just doubles the font sizes of other things around */
+/*
+spam{
+  font-size: 2.0em;
+} */
+
+/* font-height deals with thickness of text */
+/* font-height: 100 to 800 with incremenets of 100 */
+
+/* line-height changes the spacing between lines; much like double spacing. Most comming is 1.5 or 2 */
+
+/* text-decoration gives an underline or a dash effect */
+p{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 1px;
+}

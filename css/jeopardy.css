@@ -1,0 +1,148 @@
+table{
+  border:1px solid grey;
+  margin: 0 auto;
+  border-spacing: 20px; /*cellspacing*/
+  border-collapse: separate; /*cellspacing*/
+  background-image: url
+}
+th{
+  border:1px solid grey;
+  background: rgb(0, 102, 204);
+  color: yellow;
+  padding: 10px; /*cellpadding*/
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 100px;
+  height: 50px;
+}
+
+span{
+  color: yellow;
+
+}
+
+#demo{
+  border: 1px dotted green;
+  color: white;
+  border: 1px solid white;
+}
+#demo2{
+  border: 1px dotted red;
+  color: steelblue;
+}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+/* ------------------------------------------------------------ */
+
+h1{
+  text-align: center;
+}
+
+
+body{
+  font-family: Lora;
+  text-align: center;
+  background-image: url("https://wallpapercave.com/wp/zm8bgId.jpg")
+}
+
+
+.square{
+  margin: 0 auto;
+  border: 1px dotted grey;
+}
+#container{
+  background-color: rgb(57, 151, 220);
+  width: 100%;
+
+  box-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.buttonshape:hover{
+  color:blue;
+
+  transition: all, 10s; /*what it affects, seconds*/
+  --webkit-transition: all, .3s;
+  -moz-transition: all, .3s;
+}
+
+
+.buttonshape{
+  border-radius: 50%;
+  font-weight: bold;
+  background: yellow;
+
+}
+input[type = "button"]:disabled{
+  background-color: #E3E1B8; /*grey*/
+  /* padding: 2px 4px;
+  font: 13px sans-serif; */
+  text-decoration: /*line-through;*/
+}
+
+button:hover{
+  color:white;
+  background: steelblue;
+  transition: all, .3s; /*what it affects, seconds*/
+  --webkit-transition: all, .3s;
+  -moz-transition: all, .3s;
+}
+
+#myBtn:hover:before{
+  color: red;
+}
+
+
+p{
+  color:  #fff2e6;
+}
+h1{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- */

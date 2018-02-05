@@ -1,0 +1,41 @@
+body{
+  /* background: url("https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+h1{
+  /* border: width style color */
+}
+
+
+/* Selectors: eleemnt, class ., id # */
+/* More selectors: stars, descendent, adjacent, attribute, nth of type */
+/* Lots of selectors https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048 */
+
+
+/* stars applies to everything */
+/* *{
+  border: 1px solid black;
+} */
+
+/* descendent selectors selects within certain selectors */
+/* li a {
+  color: green;
+} */
+
+/* adjacent selectors lets us select all tags after a tag */
+/* h2 + ul {
+  border: 1px solid red;
+}
+This effected all ul after h2 */
+
+/* Attribute selector takes any href */
+/* a[href = "https://www.google.com"]{
+  background: blue;
+} */
+/* Also popular with input[type = "checkbox"] */
+
+/* this means the third ul is selected */
+/* ul:nth-of-type(3){
+  background-color: red;
+} */

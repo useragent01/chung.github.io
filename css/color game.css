@@ -1,0 +1,84 @@
+body{
+  background-color: #232323; /*light black*/
+  margin: 0; /*gets rid of space*/
+  font-family: cursive;
+}
+
+.square{
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%; /*adding some space between square*/
+  float: left; /*was horizontal before this line, now it's vertical*/
+  margin: 1.66%; /*seperartses teh square*/
+  border-radius: 15%;
+  transition: backgroundColor, .6s;/*slows the backgroundColor changes for box */
+  /*these are needed so they work on mozilla + other browsers*/
+  --webkit-transition: backgroundColor, .6s;
+  -moz-transition: backgroundColor, .6s
+}
+#container /*this lets us ensure boxes are much smaller*/{
+  max-width: 600px;
+  margin: 20px auto; /*centers 0 auto*/
+}
+h1{
+  color:white;
+  text-align: center;
+  background: #4682b4;
+  /*gets rid of space */
+  margin: 0;
+  font-weight: normal;/*changes thickness*/
+  text-transform: uppercase;
+  line-height: 1.1; /*made h1 smaller*/
+  padding-top: 20px; /*gave padding*/
+  padding-bottom: 20px;
+}
+p{
+  text-align: center;
+}
+span{
+  color:white;
+}
+
+#stripe{
+  background-color: white;
+  height: 30px;
+  text-align: center;
+}
+
+#message{
+  color:black;
+}
+
+.selected{
+  color:white;
+  background: steelblue;
+}
+
+#colorDisplay{
+  font-size: 200% /*of h1 font-size*/
+}
+
+button{
+    font-family: cursive;
+    border: none;
+    background: none;
+    text-transform:uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit; /*takes body font-size*/
+    outline: none; /*this does nothing for chrome*/
+}
+button:hover{
+  color:white;
+  background: steelblue;
+  transition: all, .3s; /*what it affects, seconds*/
+  --webkit-transition: all, .3s;
+  -moz-transition: all, .3s;
+}
+#message{
+  display: inline-block;
+  width: 20%;
+  /*this spaces the buttons*/
+}

@@ -1,0 +1,23 @@
+*{
+  font-family: 'Indie Flower', cursive;
+}
+
+
+p{
+  width: 40%;
+/* padding, padding-left, padding-right etc can be changed*/
+
+/* Margin, margin-top, etc., changes the space between the elements*/
+/* margin: top, right, bottom, left */
+/* margin: 0 auto centers things */
+margin: 0 auto;
+margin: 20px 50px;
+
+  border: 3px solid green; /*width, height changes border*/
+  /* The % unit changes with the window size */
+
+
+
+
+
+}

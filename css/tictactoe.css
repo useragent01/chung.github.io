@@ -1,0 +1,61 @@
+h1{
+  text-align: center;
+  margin: 40px;
+}
+table{
+  margin: auto;
+}
+td{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+/* His solution was much more optimized:Big differences was he used class instead of id, he also made the border: 1px solid black in the class instead of how I did it by whiting everything out */
+/* Correct: should have just used class, since many of these id are the same */
+#A{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+#B{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+#C{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+#D{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+#E{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+#F{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+#G{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+
+#H{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+#I{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
